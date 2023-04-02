@@ -1,0 +1,39 @@
+{
+	"name": "drinkdrankdrunk",
+	"version": "1.0.0",
+	"description": "Drinking app",
+	"main": "index.js",
+	"scripts": {
+		"dev": "next dev -H 0.0.0.0",
+		"build": "next build",
+		"start": "next start"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/angelzxz1/drinkdrankdrunk.git"
+	},
+	"keywords": [
+		"nextjs",
+		"react",
+		"tailwind"
+	],
+	"author": "Magen-z",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/angelzxz1/drinkdrankdrunk/issues"
+	},
+	"homepage": "https://github.com/angelzxz1/drinkdrankdrunk#readme",
+	"dependencies": {
+		"next": "^13.2.4",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.11",
+		"@types/react": "^18.0.32",
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.21",
+		"tailwindcss": "^3.3.1",
+		"typescript": "^5.0.3"
+	}
+}
