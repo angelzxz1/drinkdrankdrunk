@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .Section {
-	@apply pt-16;
+	/* @apply ; */
 }
