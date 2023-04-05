@@ -15,6 +15,7 @@ const colors = {
 		900: "#070214",
 	},
 	teal: "#00b4d8",
+	orange: "#ffba08",
 	"gradient-purple": "#1c032e",
 };
 
