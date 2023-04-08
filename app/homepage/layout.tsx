@@ -10,7 +10,13 @@ export default function RootLayout({ children }) {
 		<html lang="en">
 			<body className="text-global-text bg-gradient-to-br from-purple-800 to-black bg-no-repeat h-screen w-screen">
 				<NavBar />
-				{children}
+				<main
+					className="
+						pt-16
+					"
+				>
+					{children}
+				</main>
 			</body>
 		</html>
 	);

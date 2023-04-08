@@ -1,5 +1,5 @@
 import React from "react";
-
+import Card from "./Card";
 interface SectionProps {
 	children: JSX.Element;
 	mt?: string;
@@ -7,9 +7,15 @@ interface SectionProps {
 
 const Page = (): JSX.Element => {
 	return (
-		<div className="Section">
-			<h1>Page</h1>
-		</div>
+		<section
+			className="
+			flex
+			justify-center
+			items-center
+		"
+		>
+			<Card />
+		</section>
 	);
 };
 export default Page;
